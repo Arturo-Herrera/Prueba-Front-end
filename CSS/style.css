@@ -1,15 +1,29 @@
+/*FUENTE*/
+.raleway{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*PAGINA WEB*/
 :root{
     --primary:#f5f1e5;
-    --black:#000000;
+    --link:#337044;
+    --white: #ffff;
 }
 
 html{
     background-color: var(--primary);
-    font-family: sans-serif;
-}
-
-img{
-    padding: 1rem;
+    font-family: Raleway;
+    font-size: 15px;
+    padding: 34px;
 }
 
 /*HEADER SECTION*/
@@ -23,13 +37,101 @@ header{
 
 .logo img{
     padding: 0px;
-    width: 30rem;
+    width: 33rem;
     height: auto;
 }
 
 .under-logo img{
-    width: 63rem;
+    width: 68rem;
     height: auto;
 }
 
 /*BODY*/
+h2{
+    font-family: pacifico;
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: var(--link);
+}
+
+.sc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubication{
+    height: 30px;
+    width: 170px;
+    border: 2px solid var(--link);
+    border-radius: 3px; 
+    padding: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: transparent;
+}
+
+.ubication a{
+    display: block;
+    font-weight: 700;
+}
+
+.ubication:hover{
+    background-color: var(--link);
+}
+
+.ubication:hover a {
+    color: var(--white);
+}
+
+.info-u{
+    text-align: center;
+    padding: 17px;
+}
+
+.up{
+    margin: 0px 0px 4.5px;
+}
+
+.down{
+    margin: 24px 0px 0px;
+}
+
+.sc {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    margin-top: 2vw; /* Ajusta el margen superior según tus necesidades */
+}
+
+.sc .info-u {
+    margin-left: 32%;
+    margin-right: 32%; /* Margen lateral de 32% */
+    display: block; /* Asegura que el enlace ocupe todo el ancho disponible */
+}
+
+.rest-contacts nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.rest-contacts img {
+    width: 200px;
+    height: auto;
+}
+
+
