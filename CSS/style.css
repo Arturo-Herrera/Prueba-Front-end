@@ -1,4 +1,4 @@
-/*FUENTE*/
+/*FUENTES*/
 .raleway{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -107,16 +107,16 @@ a{
 
 .sc {
     display: flex;
-    flex-direction: column; /* Coloca los elementos en columna */
-    align-items: center; /* Centra los elementos horizontalmente */
-    justify-content: center; /* Centra los elementos verticalmente */
-    margin-top: 2vw; /* Ajusta el margen superior según tus necesidades */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 2vw;
 }
 
 .sc .info-u {
     margin-left: 32%;
-    margin-right: 32%; /* Margen lateral de 32% */
-    display: block; /* Asegura que el enlace ocupe todo el ancho disponible */
+    margin-right: 32%; 
+    display: block; 
 }
 
 .rest-contacts nav{
@@ -133,5 +133,115 @@ a{
     width: 200px;
     height: auto;
 }
+
+/*HISTORY*/
+
+.hist{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ship img{
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+}
+
+.paragraph{
+    text-align:justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.paragraph p{
+    font-weight: 500;
+    margin: 0px 9% 20px 9%;
+}
+
+.bh-h{
+    text-align:justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.bh-h h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.awards{
+    text-align: center;
+}
+
+.awards strong{
+    color: var(--link);
+    display: block;
+    font-size: 15px;
+    margin: 0px 29% 25px 29%;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email a {
+    background-color: var(--link);
+    color: var(--white);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.email a:hover {
+    background-color: #5b8b64;
+}
+
+.video{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50px;
+}
+.inf-vid{
+    font-size: 12.375px;
+    font-weight: 500;
+    margin: 0px 0px 0px 81px;
+}
+
+.pg {
+    font-weight: 500;
+    margin: 10px 7% 20px 7%;
+}
+
+.img-ny {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4vw; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px;
+    padding: 20px;
+}
+
+.img-ny div img {
+    width: 100%;
+    height: auto;
+}
+
+/*FOOTER*/
 
 
