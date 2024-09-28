@@ -217,6 +217,7 @@ a{
     align-items: center;
     margin-bottom: -50px;
 }
+
 .inf-vid{
     font-size: 12.375px;
     font-weight: 500;
@@ -284,3 +285,48 @@ footer{
 .restaurants img{
     width: 100%;
 }
+
+/*RESPONSIVE*/
+
+
+@media (max-width: 954px) {
+    .img-ny,
+    .restaurants,
+    .rest-contacts nav {
+        grid-template-columns: 1fr; 
+        justify-items: center; 
+    }
+
+    .img-ny div img,
+    .restaurants img,
+    .rest-contacts img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .logo img,
+    .under-logo img {
+        width: 100%;
+        max-width: 500px; 
+        height: auto;
+    }
+
+    .video iframe {
+        width: 100%;
+        padding: 10px;
+        max-width: 600px;
+        height: auto;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .inf-vid{
+        margin: 0px 0px 0px 50px;
+    }
+}
+
